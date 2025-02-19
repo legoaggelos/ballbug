@@ -1,0 +1,64 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "ballbug"
+version = "${version}"
+displayName = "Infite Toy Balls for F/A"
+authors = "legoaggelos"
+description = '''
+This mod brings back a bug from the 9.0.0.3 and 9.0.0.4 versions of F/A that allowed you to place infinite toy balls from just one
+'''
+#logoFile = ""
+
+[[dependencies.ballbug]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ballbug]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ballbug]]
+modId = "architectury"
+mandatory = true
+versionRange = "[4.11.93,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.ballbug]]
+modId = "geckolib3"
+mandatory = true
+versionRange = "[3.0.55,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.ballbug]]
+modId = "terrablender"
+mandatory = true
+versionRange = "[1.2.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ballbug]]
+modId = "morehitboxes"
+mandatory = true
+versionRange = "[1.7.3,)"
+ordering = "AFTER"
+side = "BOTH"
+
+
+[[dependencies.ballbug]]
+modId = "fossil"
+mandatory = true
+versionRange = "[9.1.1.0,)"
+ordering = "NONE"
+side = "BOTH"
