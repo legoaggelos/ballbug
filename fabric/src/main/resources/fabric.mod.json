@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ballbug",
+  "version": "${version}",
+  "name": "Infite Toy Balls for F/A",
+  "description": "This mod brings back a bug from the 9.0.0.3 and 9.0.0.4 versions of F/A that allowed you to place infinite toy balls from just one",
+  "authors": [
+    "legoaggelos"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.legoaggelos.ballbug.fabric.BallBugFabric"
+    ]
+  },
+  "mixins": [
+    "ballbug.mixins.json",
+    "ballbug-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.11.93",
+    "geckolib3": ">=3.0.62",
+    "terrablender": ">=1.2.0",
+    "morehitboxes": ">=1.7.3",
+    "fossil": ">=9.1.1.0"
+  }
+}
